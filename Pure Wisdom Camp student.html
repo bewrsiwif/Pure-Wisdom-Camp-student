@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>2026春季誦經超薦報到系統</title>
+  <title>2026淨智營二期學員報到系統</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -56,8 +56,8 @@
 <body>
 
   <div class="app-header center-align">
-    <h5 style="margin:0; font-weight: bold;">春季誦經超薦報到系統</h5>
-    <p style="margin:5px 0 0 0; opacity: 0.8; font-size: 0.9rem;">2026 春季誦經超薦義工報到</p>
+    <h5 style="margin:0; font-weight: bold;">2026淨智營二期學員報到系統</h5>
+    <p style="margin:5px 0 0 0; opacity: 0.8; font-size: 0.9rem;">2026淨智營二期學員報到系統</p>
   </div>
 
   <div class="main-container">
@@ -80,7 +80,7 @@
         </div>
       </div>
       <button type="button" class="btn-flat waves-effect waves-blue" onclick="submitQuery();" style="width:100%; color: #1565c0; font-weight: bold; border: 1px solid #e0e0e0; border-radius: 8px; margin-top: 10px;">
-        <i class="material-icons left">search</i> 搜尋義工資料
+        <i class="material-icons left">search</i> 搜尋學員資料
       </button>
     </div>
 
@@ -199,8 +199,8 @@
             <div class="row" style="margin-bottom: 5px;">
               <div class="col s6">
                 <div class="info-tile">
-                  <span class="info-label">教室</span>
-                  <span class="info-value">${s.area}</span>
+                  <span class="info-label">組別</span>
+                  <span class="info-value">${s.teams}</span>
                 </div>
               </div>
               <div class="col s6">
@@ -247,7 +247,7 @@
               <h5 style="margin: 0; font-weight: bold; font-size: 1.8rem;">${d.name}</h5>
               <div class="row" style="margin-top:20px; margin-bottom: 0;">
                 <div class="col s6">
-                  <p class="grey-text">教室</p>
+                  <p class="grey-text">組別</p>
                   <div style="font-size: 2.2rem; font-weight: 900; color:#1a237e;">${d.area}</div>
                 </div>
                 <div class="col s6">
